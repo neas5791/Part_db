@@ -10,8 +10,8 @@ namespace Part_db
     {
         public PartContext() : base() { }
 
-        DbSet<Part> Parts { get; set; }
-        DbSet<Type> Type { get; set; }
+        public DbSet<Part> Parts { get; set; }
+        public DbSet<Type> Type { get; set; }
 
     }
 }
